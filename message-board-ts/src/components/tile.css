@@ -1,0 +1,86 @@
+.header-container {
+  line-height: 1.625;
+  font-size: 1.85rem;
+  margin: 0px;
+  height: 50px;
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+h1, h2, h3, h4 , h5 {
+  margin: 5px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.action-button {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: black;
+  font-weight: bold;
+  font-weight: 600;
+  background-color: #88FCA3;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+.tile-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 350px;
+  padding: 15px;
+  color: black;
+  margin: 10px;
+}
+
+.body-container {
+  background-color: #fefaee;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.tiles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

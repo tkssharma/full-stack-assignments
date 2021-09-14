@@ -1,0 +1,8 @@
+https://levelup.gitconnected.com/how-to-write-react-apps-with-typescript-697f9e90cfd4
+
+
+npx create-react-app my-app --template typescript
+
+
+https://medium.com/codex/typescript-and-create-react-app-11bdebcbf763
+

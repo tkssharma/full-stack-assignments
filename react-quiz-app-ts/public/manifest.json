@@ -1,0 +1,9 @@
+{
+  "short_name": "Quizzer ",
+  "name": "Quiz App Made With React and tailwind css",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

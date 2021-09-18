@@ -1,0 +1,104 @@
+.header-container {
+  padding: 10px;
+  height: 62px;
+  background-color: #ffffff;
+
+  .branding {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 16px;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #192024;
+  background-color: #f9fafb;
+
+  .body-container {
+    margin-top: 67px;
+    margin-left: 94px;
+    .heading {
+      font-family: HelveticaNeue;
+      font-size: 44px;
+      font-weight: 900;
+      color: #000000;
+    }
+    .action-container {
+      margin-top: 73px;
+      .sub-heading {
+        font-family: HelveticaNeue;
+        font-size: 16px;
+        font-weight: bold;
+        color: #192024;
+      }
+      .list-container {
+        margin-bottom: 56px;
+        padding-left: 0px;
+        margin-left: 0px;
+        display: flex;
+        list-style: none;
+        /* justify-content: space-between; */
+        width: 500px;
+        .list-item {
+          display: inline-flex;
+        }
+
+        .item-label {
+          padding-left: 10px;
+          padding-right: 24px;
+          font-family: HelveticaNeue;
+          font-size: 14px;
+          font-weight: normal;
+          color: #192024;
+        }
+      }
+    }
+
+    .tile-list {
+      display: flex;
+      justify-self: center;
+      flex-wrap: wrap;
+      .tile-card {
+        border-radius: 8px;
+        box-shadow: 0 -1px 4px 0 rgba(25,32,36, 0.04) 0 3px 6px 0 rgba(25,32,36, 0.04);
+        position: relative;
+        width : 300px;
+        height: 240px;
+        margin: 8px;
+        background-color: #ffffff;
+        .logo-holder {
+          vertical-align: middle;
+          display: inline-flex;
+          position: absolute;
+          top: 45%;
+          left: 25%;
+          img {
+            width: 32px;
+            height: 32px;
+          }
+          .tile-data {
+            vertical-align: middle;
+            text-align: left;
+            margin: auto;
+            padding-left: 18px;
+            font-family: HelveticaNeue;
+            font-size: 14px;
+            word-break: break-all;
+            font-weight: normal;
+            color: #192024;
+            .tile-website {
+              color: #5a6872;
+            }
+          }
+        }
+        &:hover {
+          border: solid 1px #363f45;
+        }
+      }
+    }
+  }
+}

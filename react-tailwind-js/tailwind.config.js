@@ -51,6 +51,7 @@ module.exports = {
       "5xl": "3rem",
       "6xl": "4rem"
     },
+    container: {},
     extend: {
       colors: {
         "blue": "#003652",

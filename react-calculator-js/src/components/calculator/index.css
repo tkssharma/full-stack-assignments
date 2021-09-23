@@ -1,0 +1,33 @@
+.symbol {
+    width: 30px;
+}
+
+.card {
+    transition: height 0.5s ease-in-out;
+    will-change: height;
+}
+
+.total-operations {
+    color: var(--heading-color);
+    font-size: 1.2em;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.result-container .result-value{
+    background: #fff;
+    max-height: 44px;
+    color: var(--primary-dark);
+    padding: 6px 32px;
+    border-radius: 32px;
+    font-size: 1.3em;
+    caret-color: var(--brand-color-dark);
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  

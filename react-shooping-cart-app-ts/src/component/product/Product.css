@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,800);
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+}
+
+figure.product {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    background: #000000;
+    color: #333;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.product * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+figure.product img {
+    max-width: 100%;
+    vertical-align: top;
+    max-height: 200px;
+}
+
+figure.product figcaption {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 25px 50px;
+}
+
+figure.product h3 {
+    position: absolute;
+    bottom: 100%;
+    text-transform: uppercase;
+    padding: 0px 25px;
+    line-height: 44px;
+    margin: 0;
+    left: 0;
+    font-weight: 400;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+figure.product h3 span {
+    font-weight: 800;
+}
+
+figure.product h3:before {
+    position: absolute;
+    left: 100%;
+    border-style: solid;
+    border-width: 44px 0 0 12px;
+    border-color: transparent transparent transparent #000000;
+    content: '';
+    top: 0;
+}
+
+figure.product p {
+    height: 200px;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+figure.product p:hover, img:hover, a:hover {
+    cursor: pointer;
+}
+
+figure.product .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0 10px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+figure.product .price:before {
+    position: absolute;
+    right: 100%;
+    border-style: solid;
+    border-width: 0 12px 40px 0;
+    border-color: transparent #000000 transparent;
+    content: '';
+    top: 0;
+}
+
+figure.product a {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+figure.product a:before {
+    position: absolute;
+    right: 100%;
+    border-style: solid;
+    border-width: 0 0 40px 12px;
+    border-color: transparent transparent #000000;
+    content: '';
+    top: 0;
+}
+
+figure.product.blue {
+    background-color: #4757B9;
+}
+
+figure.product.blue h3,
+figure.product.blue a,
+figure.product.blue .price {
+    background-color: #4757B9;
+}
+
+figure.product.blue .price:before {
+    border-color: transparent #4757B9 transparent;
+}
+
+figure.product.blue h3:before {
+    border-color: transparent transparent transparent #4757B9;
+}
+
+figure.product.blue a:before {
+    border-color: transparent transparent #4757B9;
+}
+
+figure.product.red {
+    background-color: #ab3326;
+}
+
+figure.product.red h3,
+figure.product.red a,
+figure.product.red .price {
+    background-color: #ab3326;
+}
+
+figure.product.red .price:before {
+    border-color: transparent #ab3326 transparent;
+}
+
+figure.product.red h3:before {
+    border-color: transparent transparent transparent #ab3326;
+}
+
+figure.product.red a:before {
+    border-color: transparent transparent #ab3326;
+}
+
+figure.product.orange {
+    background-color: #d67118;
+}
+
+figure.product.orange h3,
+figure.product.orange a,
+figure.product.orange .price {
+    background-color: #d67118;
+}
+
+figure.product.orange .price:before {
+    border-color: transparent #d67118 transparent;
+}
+
+figure.product.orange h3:before {
+    border-color: transparent transparent transparent #d67118;
+}
+
+figure.product.orange a:before {
+    border-color: transparent transparent #d67118;
+}
+
+figure.product:hover img,
+figure.product.hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

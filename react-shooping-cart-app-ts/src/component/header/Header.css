@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #483E52;
+}
+
+.header-title {
+    color: #ffffff;
+}

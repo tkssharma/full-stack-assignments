@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,800);
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  --lh: 1.4rem;
+  line-height: var(--lh);
+}

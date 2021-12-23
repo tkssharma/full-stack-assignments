@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+@media (min-width: 1536px) {
+.container {
+    max-width: 1206px !important;
+}
+}

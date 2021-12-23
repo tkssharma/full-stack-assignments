@@ -1,0 +1,12 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home h1 {
+  color: #2a4365;
+  font-family: Arial, Helvetica, sans-serif;
+}
